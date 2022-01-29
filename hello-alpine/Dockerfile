@@ -3,4 +3,3 @@ LABEL version="1.0.0" maintainer="lisa" os="linux" distro="alpine"
 ENV CONTAINER_USER="lisa"
 RUN useradd $CONTAINER_USER
 CMD echo "hello-alpine, I’m $CONTAINER_USER and this is a container from my first image"
-CMD DOCKER_BUILDKIT=0
